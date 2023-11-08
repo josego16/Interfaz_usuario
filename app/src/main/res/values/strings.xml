@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Interfaz_usuario</string>
+    <string name="texto_iniciar">START_SERVICE</string>
+    <string name="texto_pausa">PAUSE_SERVICE</string>
+    <string name="texto_stop">STOP_SERVICE</string>
+</resources>
