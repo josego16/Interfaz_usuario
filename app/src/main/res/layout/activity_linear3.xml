@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearActivity3">
+
+    <LinearLayout
+        android:id="@+id/linear_porcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#E6EE9C" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="#FFF59D" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:background="#FFE082" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:background="#FFCC80" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:background="#FFAB91" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
