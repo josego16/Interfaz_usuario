@@ -3,4 +3,8 @@
     <string name="texto_iniciar">START_SERVICE</string>
     <string name="texto_pausa">PAUSE_SERVICE</string>
     <string name="texto_stop">STOP_SERVICE</string>
+    <string name="texto_time">Time</string>
+    <string name="texto_name">First Name</string>
+    <string name="text_apellido">Last Name</string>
+    <string name="texto_submit">Submit</string>
 </resources>
