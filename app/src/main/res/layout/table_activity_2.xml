@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_open"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/texto_open"
+                android:textSize="15sp" />
+
+            <TextView
+                android:gravity="end"
+                android:padding="3dp"
+                android:text="@string/texto_shortcut_open"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_save"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/texto_save"
+                android:textSize="15sp" />
+
+            <TextView
+                android:gravity="end"
+                android:padding="3dp"
+                android:text="@string/texto_shortcut_save"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_save_as"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/texto_save_as"
+                android:textSize="15sp" />
+
+            <TextView
+                android:gravity="end"
+                android:padding="3dp"
+                android:text="@string/texto_shortcut_saveAs"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/texto_x"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_import"
+                android:padding="3dp"
+                android:text="@string/texto_import"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/texto_x"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_export"
+                android:padding="3dp"
+                android:text="@string/texto_export"
+                android:textSize="15sp" />
+
+            <TextView
+                android:gravity="end"
+                android:padding="3dp"
+                android:text="@string/texto_shortcut_export"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/text_quit"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/texto_quit"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

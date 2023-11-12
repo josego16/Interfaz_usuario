@@ -7,4 +7,15 @@
     <string name="texto_name">First Name</string>
     <string name="text_apellido">Last Name</string>
     <string name="texto_submit">Submit</string>
+    <string name="texto_open">Open...</string>
+    <string name="texto_shortcut_open">Ctrl-O</string>
+    <string name="texto_save">Save...</string>
+    <string name="texto_shortcut_save">Ctrl-S</string>
+    <string name="texto_save_as">Save As...</string>
+    <string name="texto_shortcut_saveAs">Ctrl-Shift-S</string>
+    <string name="texto_x">X</string>
+    <string name="texto_import">Import...</string>
+    <string name="texto_export">Export...</string>
+    <string name="texto_shortcut_export">Ctrl-E</string>
+    <string name="texto_quit">Quit</string>
 </resources>
