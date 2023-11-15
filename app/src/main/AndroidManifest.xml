@@ -21,21 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Linear_Anidado2_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".LinearActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".Linear_Anidado_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".LinearActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".LinearActivity"
-            android:exported="false" />
     </application>
 
 </manifest>
